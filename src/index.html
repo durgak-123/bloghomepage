@@ -1,0 +1,1896 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  </head>
+
+<body>
+    <!-- main heading and search bar -->
+    <header class="bg-bluecolour px-2">
+        <div class="container mx-auto py-4 md:p-8">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <h1 class="font-manrope md:text-4xl font-bold leading-[40.8px] tracking-[-1.02px] text-[#0C1620] text-center md:text-left py-4 text-[22px]">
+                    Trending Blogs
+                </h1>
+                <div class="relative mt-2 md:mt-0 w-full md:w-1/3 flex items-center">
+                    <div class="relative w-full">
+                        <input type="text" class="w-full border-none rounded-lg bg-white p-2 pl-10 pr-2 shadow-lg md:shadow-lg shadow-white" placeholder="Search Blogs of your interest..." />
+                        <img src="../Assets/searchIcon.svg" alt="search icon" class="absolute left-3 top-1/2 transform -translate-y-1/2" />
+                    </div>                    
+                    <button class="absolute -right-4 md:mr-4 top-0 h-full w-24 min-w-[80px] rounded-r bg-[#9540FF] text-white shadow-lg shadow-white hidden md:block">
+                        Search
+                    </button>
+                </div>
+            </div>  
+        </div>
+    </header>
+
+    <!-- Second section -->
+    <div class="bg-bluecolour px-2">
+        <div class="container mx-auto p-0 py-4 md:p-8">
+            <div class="relative rounded-lg shadow-md flex flex-col md:flex-row" style="border-radius: 16px; background: linear-gradient(284deg, #052D20 0%, #0C583D 80.93%);">
+                
+                <div class="hidden md:flex overflow-visible absolute top-1/2 -left-4 transform -translate-y-1/2">
+                    <img src="../Assets/leftArrow.png" alt="Left Arrow" class="h-8">
+                </div>
+    
+                <!-- Right Arrow (Positioned at the right edge of the card) -->
+                <div class="hidden md:flex overflow-visible absolute top-1/2 -right-4 transform -translate-y-1/2">
+                    <img src="../Assets/download.png" alt="Right Arrow" class="h-8">
+                </div>
+                
+                <div class="flex items-center justify-center md:w-1/2 p-0 md:py-8 md:pl-8 md:pt-8 relative">
+                    <img
+                        src="../Assets/ArchitecturalProjectManager.png"
+                        alt="Card Image"
+                        class="object-cover w-full h-auto rounded-t-lg md:rounded-lg "
+                    >
+                </div>
+    
+                <div class="flex flex-col justify-between md:w-1/2 p-2 md:pb-8 md:pr-4 md:pt-12 md:ml-2">
+                    <div class="flex mb-2">
+                        <div class="flex items-center">
+                            <img
+                                src="../Assets/Cylvea mable.jpg"
+                                alt="Cylvea mable"
+                                class="h-10 w-10 rounded-full bg-gray-50"
+                            />
+                            <div class="text-sm pl-2">
+                                <p class="font-semibold text-white">
+                                    <a href="#" class="text-white">
+                                        <span class="flex flex-col items-end">
+                                            <div class="font-manrope text-[16px] font-bold leading-[23.4px] text-right">Cylvea Mable</div>
+                                            <div class="font-inter text-[12px] font-normal leading-[18px] text-left text-[#BFCCDA]">
+                                                April 2021
+                                            </div>
+                                        </span>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="ml-auto rounded-full mt-2 bg-[#D6FFEE] flex items-center justify-center px-4 mr-2">
+                            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-1">
+                                <path d="M14.1666 6.20957C12.6266 3.78957 10.3733 2.39624 7.99992 2.39624C6.81325 2.39624 5.65992 2.74291 4.60659 3.38957C3.55325 4.04291 2.60659 4.99624 1.83325 6.20957C1.16659 7.25624 1.16659 8.95624 1.83325 10.0029C3.37325 12.4296 5.62659 13.8162 7.99992 13.8162C9.18658 13.8162 10.3399 13.4696 11.3933 12.8229C12.4466 12.1696 13.3933 11.2162 14.1666 10.0029C14.8333 8.96291 14.8333 7.25624 14.1666 6.20957ZM7.99992 10.8029C6.50659 10.8029 5.30659 9.59624 5.30659 8.10957C5.30659 6.62291 6.50659 5.41624 7.99992 5.41624C9.49325 5.41624 10.6933 6.62291 10.6933 8.10957C10.6933 9.59624 9.49325 10.8029 7.99992 10.8029Z" fill="#029358"/>
+                                <path d="M8.0001 6.203C6.95343 6.203 6.1001 7.05634 6.1001 8.10967C6.1001 9.15634 6.95343 10.0097 8.0001 10.0097C9.04676 10.0097 9.90676 9.15634 9.90676 8.10967C9.90676 7.063 9.04676 6.203 8.0001 6.203Z" fill="#029358"/>
+                            </svg>
+                            <span class="font-inter text-[12px] font-semibold leading-[16.8px] text-[#029358] pr-1">1170 views</span>
+                        </div>
+                    </div>             
+                    <div class="absolute bottom-0 right-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="117" height="65" viewBox="0 0 117 65" fill="none">
+                            <g opacity="0.4">
+                                <path d="M57.1733 31.6382L9.05066 34.2661L69.7938 107.852L120.208 105.185C124.624 104.953 126.938 100.006 124.187 96.677L77.8319 40.54C72.857 34.518 65.1593 31.2021 57.1733 31.6382Z" fill="url(#paint0_linear_8818_23996)"/>
+                                <path d="M67.375 8.1191L19.1514 11.2211L79.4769 88.0983L129.996 84.9384C134.422 84.6637 136.775 79.4507 134.042 75.9724L88.006 17.3247C83.0652 11.0334 75.3778 7.60431 67.375 8.1191Z" fill="url(#paint1_linear_8818_23996)"/>
+                            </g>
+                            <defs>
+                                <linearGradient id="paint0_linear_8818_23996" x1="44.4302" y1="107.641" x2="63.5916" y2="39.9651" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#00D484" stop-opacity="0"/>
+                                    <stop offset="0.5" stop-color="#00D484" stop-opacity="0.56"/>
+                                    <stop offset="1" stop-color="#00D484" stop-opacity="0"/>
+                                </linearGradient>
+                                <linearGradient id="paint1_linear_8818_23996" x1="54.0713" y1="88.0563" x2="74.6824" y2="17.0939" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#00D484" stop-opacity="0"/>
+                                    <stop offset="0.5" stop-color="#00D484" stop-opacity="0.56"/>
+                                    <stop offset="1" stop-color="#00D484" stop-opacity="0"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+    
+                    <div class="flex justify-center w-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="2" viewBox="0 0 550 2" class="w-[300px] md:w-[550px]">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 1.09998H550V0.0999756H0V1.09998Z" fill="#095E3E"/>
+                        </svg>
+                    </div>
+    
+                    <div class="p-2">
+                        <h1 class="font-manrope text-[22px] font-bold leading-[28.6px] text-left text-white py-2">
+                            Advanced Certified Scrum Master
+                        </h1>
+                        <div class="text-[#BFCCDA] font-inter text-base text-left hidden md:block pr-2">
+                            Catherine Therasa, Head of Engineering at Star Agile, is a seasoned writer and captivating storyteller. With extensive experience in EdTech, E-commerce, and LXP, he excels in developing B2C and B2B products at scale. Over his 15-year career...
+                        </div>
+    
+                        <div class="text-[#BFCCDA] font-inter text-[14px] font-normal leading-[150%] text-left my-2 md:hidden">
+                            “The learning methodology put it all together for me. I ended up...
+                        </div>
+                        <p class="font-bold underline text-white mt-1">Read more</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center mt-4 md:hidden">
+                <div class="flex space-x-4">
+                    <img src="../Assets/leftArrow.png" alt="Left Arrow" class="h-8">
+                    <img src="../Assets/download.png" alt="Right Arrow" class="h-8">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!-- Recommended Blogs -->
+<div class="mt-8 px-2">
+    <h1 class="text-[#0C1620] text-center md:text-3xl font-manrope text-xl font-bold leading-[130%] md:py-10 text-[21px] py-4">
+        Recommended Blogs
+    </h1>
+
+    <div class="relative py-2 pb-8 overflow-x-auto md:overflow-hidden">
+        <div class="flex justify-center items-center space-x-4 whitespace-nowrap">
+
+            <div class="p-2 flex-shrink-0 flex items-center border ml-24 border-gray-300 rounded-lg shadow-md md:transform md:-ml-8 md:opacity-80">
+                <div class="flex-shrink-0">
+                    <img src="../Assets/devops.png" alt="Description" class="w-full h-auto object-contain" />
+                </div>
+                <div class="ml-2">
+                    <h2 class="text-[#1E2D3E] text-sm font-bold leading-[15.925px] font-Manrope">
+                        <span>Advanced Certified</span> <br /> 
+                        <span>DevOps</span>
+                    </h2>
+                    <div class="flex items-center mt-1"> 
+                        <p class="text-[#4F6882] text-left text-xs font-medium leading-[14.7px] font-Inter underline mr-2">
+                            Explore
+                        </p>
+                        <img src="../Assets/Explore.svg" alt="Explore" />
+                    </div>
+                </div>
+            </div>
+            
+    
+            <div class="flex-shrink-0 flex items-center border border-gray-300 rounded-lg p-2 shadow-md">
+                <div class="flex-shrink-0">
+                    <img src="../Assets/devops.png" alt="Description" class="w-full h-auto object-contain" />
+                </div>
+                <div>
+                    <h2 class="text-[#1E2D3E] text-sm font-bold leading-[15.925px] font-Manrope">
+                        Advanced Certified <br/> DevOps.
+                    </h2>
+                    <div class="flex items-center">
+                        <p class="text-[#4F6882] text-left text-xs font-medium leading-[14.7px] font-Inter underline mr-2">
+                            Explore
+                        </p>
+                        <img src="../Assets/Explore.svg" alt="Explore"/>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="flex-shrink-0 flex items-center border border-gray-300 rounded-lg p-2 shadow-md">
+                <div class="flex-shrink-0">
+                    <img src="../Assets/devops.png" alt="Description" class="w-full h-auto object-contain" />
+                </div>
+                <div>
+                    <h2 class="text-[#1E2D3E] text-sm font-bold leading-[15.925px] font-Manrope">
+                        Advanced Certified <br/> DevOps.
+                    </h2>
+                    <div class="flex items-center">
+                        <p class="text-[#4F6882] text-left text-xs font-medium leading-[14.7px] font-Inter underline mr-2">
+                            Explore
+                        </p>
+                        <img src="../Assets/Explore.svg" alt="Explore"/>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="flex-shrink-0 flex items-center border border-gray-300 rounded-lg p-2 shadow-md">
+                <div class="flex-shrink-0">
+                    <img src="../Assets/devops.png" alt="Description" class="w-full h-auto object-contain" />
+                </div>
+                <div>
+                    <h2 class="text-[#1E2D3E] text-sm font-bold leading-[15.925px] font-Manrope">
+                        Advanced Certified <br/> DevOps.
+                    </h2>
+                    <div class="flex items-center">
+                        <p class="text-[#4F6882] text-left text-xs font-medium leading-[14.7px] font-Inter underline mr-2">
+                            Explore
+                        </p>
+                        <img src="../Assets/Explore.svg" alt="Explore"/>
+                    </div>
+                </div>
+            </div>
+    
+            <div class=" flex-shrink-0 flex items-center border border-gray-300 rounded-lg p-2 shadow-md">
+                <div class="flex-shrink-0">
+                    <img src="../Assets/devops.png" alt="Description" class="w-full h-auto object-contain" />
+                </div>
+                <div>
+                    <h2 class="text-[#1E2D3E] text-sm font-bold leading-[15.925px] font-Manrope">
+                        Advanced Certified <br/> DevOps.
+                    </h2>
+                    <div class="flex items-center">
+                        <p class="text-[#4F6882] text-left text-xs font-medium leading-[14.7px] font-Inter underline mr-2">
+                            Explore
+                        </p>
+                        <img src="../Assets/Explore.svg" alt="Explore"/>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="flex-shrink-0 flex items-center border border-gray-300 rounded-lg p-2 shadow-md">
+                <div class="flex-shrink-0">
+                    <img src="../Assets/devops.png" alt="Description" class="w-full h-auto object-contain" />
+                </div>
+                <div>
+                    <h2 class="text-[#1E2D3E] text-sm font-bold leading-[15.925px] font-Manrope">
+                        Advanced Certified <br/> DevOps.
+                    </h2>
+                    <div class="flex items-center">
+                        <p class="text-[#4F6882] text-left text-xs font-medium leading-[14.7px] font-Inter underline mr-2">
+                            Explore
+                        </p>
+                        <img src="../Assets/Explore.svg" alt="Explore"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    
+    
+    <div class="relative py-2 pb-8 hidden md:block">
+        <div class="flex justify-center space-x-4 overflow-hidden">
+    
+            <!-- First Card (partially visible) -->
+            <div class="max-h-[100%] flex-shrink-0 flex items-center border border-gray-300 rounded-lg p-2 shadow-md transform translate-x-2 opacity-80">
+                <div class="flex-shrink-0">
+                    <img src="../Assets/ArchitecturalProjectManager.png" alt="Description" class="w-24 h-16 object-cover" />
+                </div>
+                <div class="ml-2">
+                    <h2 class="text-[#1E2D3E] text-sm font-bold leading-[15.925px] font-Manrope">
+                        Advanced Certified <br/> DevOps.
+                    </h2>
+                    <div class="flex items-center">
+                        <p class="text-[#4F6882] text-left text-xs font-medium leading-[14.7px] font-Inter underline mr-2">
+                            Explore
+                        </p>
+                        <img src="../Assets/Explore.svg" alt="Explore"/>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Fully Visible Middle Cards (5 cards) -->
+            <div class="max-h-[100%] flex-shrink-0 flex items-center border border-gray-300 rounded-lg p-2 shadow-md">
+                <div class="flex-shrink-0">
+                    <img src="../Assets/devops.png" alt="Description" class="w-full h-auto object-contain" />
+                </div>
+                <div>
+                    <h2 class="text-[#1E2D3E] text-sm font-bold leading-[15.925px] font-Manrope">
+                        Advanced Certified <br/> DevOps.
+                    </h2>
+                    <div class="flex items-center">
+                        <p class="text-[#4F6882] text-left text-xs font-medium leading-[14.7px] font-Inter underline mr-2">
+                            Explore
+                        </p>
+                        <img src="../Assets/Explore.svg" alt="Explore"/>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="max-h-[100%] flex-shrink-0 flex items-center border border-gray-300 rounded-lg p-2 shadow-md">
+                <div class="flex-shrink-0">
+                    <img src="../Assets/devops.png" alt="Description" class="w-full h-auto object-contain" />
+                </div>
+                <div>
+                    <h2 class="text-[#1E2D3E] text-sm font-bold leading-[15.925px] font-Manrope">
+                        Advanced Certified <br/> DevOps.
+                    </h2>
+                    <div class="flex items-center">
+                        <p class="text-[#4F6882] text-left text-xs font-medium leading-[14.7px] font-Inter underline mr-2">
+                            Explore
+                        </p>
+                        <img src="../Assets/Explore.svg" alt="Explore"/>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="max-h-[100%] flex-shrink-0 flex items-center border border-gray-300 rounded-lg p-2 shadow-md">
+                <div class="flex-shrink-0">
+                    <img src="../Assets/devops.png" alt="Description" class="w-full h-auto object-contain" />
+                </div>
+                <div>
+                    <h2 class="text-[#1E2D3E] text-sm font-bold leading-[15.925px] font-Manrope">
+                        Advanced Certified <br/> DevOps.
+                    </h2>
+                    <div class="flex items-center">
+                        <p class="text-[#4F6882] text-left text-xs font-medium leading-[14.7px] font-Inter underline mr-2">
+                            Explore
+                        </p>
+                        <img src="../Assets/Explore.svg" alt="Explore"/>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="max-h-[100%] flex-shrink-0 flex items-center border border-gray-300 rounded-lg p-2 shadow-md">
+                <div class="flex-shrink-0">
+                    <img src="../Assets/devops.png" alt="Description" class="w-full h-auto object-contain" />
+                </div>
+                <div>
+                    <h2 class="text-[#1E2D3E] text-sm font-bold leading-[15.925px] font-Manrope">
+                        Advanced Certified <br/> DevOps.
+                    </h2>
+                    <div class="flex items-center">
+                        <p class="text-[#4F6882] text-left text-xs font-medium leading-[14.7px] font-Inter underline mr-2">
+                            Explore
+                        </p>
+                        <img src="../Assets/Explore.svg" alt="Explore"/>
+                    </div>
+                </div>
+            </div>
+            <div class=" max-h-[100%] flex-shrink-0 flex items-center border border-gray-300 rounded-lg p-2 shadow-md">
+                <div class="flex-shrink-0">
+                    <img src="../Assets/devops.png" alt="Description" class="w-full h-auto object-contain" />
+                </div>
+                <div>
+                    <h2 class="text-[#1E2D3E] text-sm font-bold leading-[15.925px] font-Manrope">
+                        Advanced Certified <br/> DevOps.
+                    </h2>
+                    <div class="flex items-center">
+                        <p class="text-[#4F6882] text-left text-xs font-medium leading-[14.7px] font-Inter underline mr-2">
+                            Explore
+                        </p>
+                        <img src="../Assets/Explore.svg" alt="Explore"/>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Last Card (partially visible) -->
+            <div class="max-h-[100%] flex-shrink-0 flex items-center border border-gray-300 rounded-lg p-2 shadow-md transform -translate-x-2 opacity-80">
+                <div class="flex-shrink-0">
+                    <img src="../Assets/ArchitecturalProjectManager.png" alt="Description" class="w-24 h-16 object-cover" />
+                </div>
+                <div class="ml-2">
+                    <h2 class="text-[#1E2D3E] text-sm font-bold leading-[15.925px] font-Manrope">
+                        Advanced Certified <br/> DevOps.
+                    </h2>
+                    <div class="flex items-center">
+                        <p class="text-[#4F6882] text-left text-xs font-medium leading-[14.7px] font-Inter underline mr-2">
+                            Explore
+                        </p>
+                        <img src="../Assets/Explore.svg" alt="Explore"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex justify-center py-4">
+        <div class="flex space-x-4">
+            <img src="../Assets/leftArrow.png" alt="Left Arrow" class="h-8">
+            <img src="../Assets/download.png" alt="Right Arrow" class="h-8">
+        </div>
+    </div>
+            
+    </div>
+</div>
+    
+    
+</div>
+
+
+    <!-- All Blogs and cards -->
+
+    <div class="text-center bg-bluecolour py-4 mt-2 relative">
+        <h1 class="text-[#0C1620] font-manrope text-[34px] font-bold leading-[120%] text-center tracking[-1.02px] py-4">
+            All Blogs
+        </h1>
+        <p class="text-[#4F6882] text-center font-inter text-[16px] font-normal leading-[150%] align-self-stretch">
+            The most effective project-based immersive learning experience to educate that combines hands-on projects with deep, engaging learning.
+        </p>        
+        <div class="hidden md:block">
+            <img src="../Assets/Corner.svg" class="absolute top-0 left-0" alt="Corner image" />
+            <img src="../Assets/Corner2.svg" class="absolute top-0 left-0" alt="Corner2 image" />
+        </div>
+    </div>
+    
+    
+    <!-- Nav Tab -->
+
+    <div class="bg-bluecolour">
+        <div class="max-w-screen-xl mx-auto p-4">
+            <div class="hidden w-full md:block md:w-auto">
+                <ul class="font-medium flex flex-col p-0 md:p-0 mt-4 md:flex-row md:space-x-4 shadow space-y-2 md:space-y-0 border bg-[#EBEFF3] rounded-lg relative" style="background-color: #EBEFF3;">
+                    <li class="flex-grow relative">
+                        <a href="#" class="block py-2 px-4 rounded-lg" style="color: var(--text-interaction-button-default, #1E2D3E);  font-size: 14px; font-weight: 600; line-height: 140%;">All</a>
+                        <div class="absolute left-0 right-0 bottom-0 h-1 bg-[var(--Brand-Primary-900,#51178C)] rounded-b-lg"></div>
+                    </li>
+                    <li class="flex-grow">
+                        <a href="#" class="block py-3 px-4 rounded-lg" style="color: var(--text-interaction-button-default, #1E2D3E);  font-size: 14px; font-weight: 600; line-height: 140%;">Agile Methodology</a>
+                    </li>
+                    <li class="flex-grow">
+                        <a href="#" class="block py-3 px-4 rounded-lg" style="color: var(--text-interaction-button-default, #1E2D3E); font-size: 14px; font-weight: 600; line-height: 140%;">Project Management</a>
+                    </li>
+                    <li class="flex-grow">
+                        <a href="#" class="block py-3 px-4 rounded-lg" style="color: var(--text-interaction-button-default, #1E2D3E);  font-size: 14px; font-weight: 600; line-height: 140%;">Data Science</a>
+                    </li>
+                    <li class="flex-grow">
+                        <a href="#" class="block py-3 px-4 rounded-lg" style="color: var(--text-interaction-button-default, #1E2D3E);  font-size: 14px; font-weight: 600; line-height: 140%;">Cloud Computing</a>
+                    </li>
+                    <li class="flex-grow">
+                        <a href="#" class="block py-3 px-4 rounded-lg" style="color: var(--text-interaction-button-default, #1E2D3E); font-size: 14px; font-weight: 600; line-height: 140%;">Development Ops</a>
+                    </li>
+                    <li class="flex-grow">
+                        <a href="#" class=" py-3 px-4 rounded-lg flex items-center" style="color: var(--text-interaction-button-default, #1E2D3E); font-size: 14px; font-weight: 600; line-height: 140%;">
+                            IT Service Management
+                        </a>
+                    </li>
+                    <li class="flex-grow">
+                        <a href="#" class="py-3 px-4 rounded-lg flex items-center" style="color: var(--text-interaction-button-default, #1E2D3E);  font-size: 14px; font-weight: 600; line-height: 140%;">
+                            More
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" class="ml-1">
+                                <path d="M14.9334 6.81667H9.7417H5.0667C4.2667 6.81667 3.8667 7.78333 4.43337 8.35L8.75003 12.6667C9.4417 13.3583 10.5667 13.3583 11.2584 12.6667L12.9 11.025L15.575 8.35C16.1334 7.78333 15.7334 6.81667 14.9334 6.81667Z" fill="#1E2D3E"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="block w-full md:hidden">
+                <div class="flex justify-between items-center p-3 bg-[#EBEFF3] rounded-lg shadow">
+                    <a href="#" class="text-lg font-semibold" style="color: var(--text-interaction-button-default, #1E2D3E); font-family: Inter;">Blogs</a>
+                    <a href="#" class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M14.9334 6.81667H9.7417H5.0667C4.2667 6.81667 3.8667 7.78333 4.43337 8.35L8.75003 12.6667C9.4417 13.3583 10.5667 13.3583 11.2584 12.6667L12.9 11.025L15.575 8.35C16.1334 7.78333 15.7334 6.81667 14.9334 6.81667Z" fill="#1E2D3E"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+
+    <!-- Cards -->
+
+
+   <div class="bg-bluecolour px-2">
+    <div class="container mx-auto py-4 rounded">
+        <div class="flex flex-wrap justify-between">
+            <!-- Card 1 -->
+            <div class="flex flex-col md:w-1/4 w-full mb-4 md:px-4"  >
+                <div class="relative shadow-md overflow-hidden flex flex-col"style="border-radius: 16px; border: 1px solid #DEE5EC; background: #FFF; box-shadow: 0px 1px 0px 0px #DEE5EC, 0px 4px 12px 0px rgba(12, 22, 32, 0.06);">
+                    <div class="flex items-center justify-center p-0 relative">
+                    <img
+                        src="../Assets/ArchitecturalProjectManager.png"
+                        alt="Card Image"
+                        class="object-cover rounded-none relative z-10 h-40 w-full" style=" border-bottom: 1px solid #DEE5EC; "
+                    >
+                    </div>
+                    <div class="flex flex-col justify-between px-6 pb-3 pt-2 bg-white">
+                        <div class="flex mb-4">
+                            <div class="flex items-center">
+                                <img
+                                    src="../Assets/BlianCleck.png"
+                                    alt="BlianCleck"
+                                    class="h-8 w-8 rounded-full bg-gray-50"
+                                />
+                                <div class="text-sm pl-4">
+                                    <p class="font-semibold text-black">
+                                        <a href="#" class="text-black">
+                                            <span class="flex flex-col items-end">
+                                                <div class="font-manrope text-sm font-bold leading-[23.4px] text-right opacity-100 text-[#4F6882]">
+                                                    Bian Clark
+                                                </div>
+                                                <div class="font-inter text-[12px] font-normal leading-[18px] text-right text-[#BFCCDA] w-fit h-fit">
+                                                    April 2021
+                                                </div>
+                                            </span>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="ml-auto rounded-full mt-4 bg-[#D6FFEE] flex items-center justify-center">
+                                <span class="font-inter text-[12px] font-semibold leading-[16.8px] text-[#029358] px-3">1170 views</span>
+                            </div>
+                        </div>
+                        <div class="py-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="247" height="1" viewBox="0 0 247 1" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M247 1H0V0H247V1Z" fill="#DEE5EC"/>
+                            </svg>
+                        </div>
+                        <h1 class="font-manrope text-lg font-bold leading-[28.6px] text-left text-black">
+                            Advanced Certified Scrum Master
+                        </h1>
+                        <div class="text-[#4F6882] font-inter text-[14px] font-normal leading-[150%] text-left my-2 ">
+                            “The learning methodology put it all together for me. I ended up...
+                        </div>
+                        <p class="font-medium underline text-black mt-2 text-[14px]">Read more</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="flex flex-col md:w-1/4 w-full mb-4 md:px-4"  >
+                <div class="relative shadow-md overflow-hidden flex flex-col"style="border-radius: 16px; border: 1px solid #DEE5EC; background: #FFF; box-shadow: 0px 1px 0px 0px #DEE5EC, 0px 4px 12px 0px rgba(12, 22, 32, 0.06);">
+                    <div class="flex items-center justify-center p-0 relative">
+                    <img
+                        src="../Assets/devops (2).png"
+                        alt="Card Image"
+                        class="object-cover rounded-none relative z-10 h-40 w-full" style=" border-bottom: 1px solid #DEE5EC; "
+                    >
+                    </div>
+                    <div class="flex flex-col justify-between px-6 pb-3 pt-2 bg-white">
+                        <div class="flex mb-4">
+                            <div class="flex items-center">
+                                <img
+                                    src="../Assets/BlianCleck.png"
+                                    alt="BlianCleck"
+                                    class="h-8 w-8 rounded-full bg-gray-50"
+                                />
+                                <div class="text-sm pl-4">
+                                    <p class="font-semibold text-black">
+                                        <a href="#" class="text-black">
+                                            <span class="flex flex-col items-end">
+                                                <div class="font-manrope text-sm font-bold leading-[23.4px] text-right opacity-100 text-[#4F6882]">
+                                                    Bian Clark
+                                                </div>
+                                                <div class="font-inter text-[12px] font-normal leading-[18px] text-right text-[#BFCCDA] w-fit h-fit">
+                                                    April 2021
+                                                </div>
+                                            </span>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="ml-auto rounded-full mt-4 bg-[#D6FFEE] flex items-center justify-center">
+                                <span class="font-inter text-[12px] font-semibold leading-[16.8px] text-[#029358] px-3">1170 views</span>
+                            </div>
+                        </div>
+                        <div class="py-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="247" height="1" viewBox="0 0 247 1" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M247 1H0V0H247V1Z" fill="#DEE5EC"/>
+                            </svg>
+                        </div>
+                        <h1 class="font-manrope text-lg font-bold leading-[28.6px] text-left text-black">
+                            Advanced Certified Scrum Master
+                        </h1>
+                        <div class="text-[#4F6882] font-inter text-[14px] font-normal leading-[150%] text-left my-2 ">
+                            “The learning methodology put it all together for me. I ended up...
+                        </div>
+                        <p class="font-medium underline text-black mt-2 text-[14px]">Read more</p>
+                    </div>
+                </div>
+            </div>
+            
+
+            <!-- Card 3 -->
+            <div class="flex flex-col md:w-1/4 w-full mb-4 md:px-4"  >
+                <div class="relative shadow-md overflow-hidden flex flex-col"style="border-radius: 16px; border: 1px solid #DEE5EC; background: #FFF; box-shadow: 0px 1px 0px 0px #DEE5EC, 0px 4px 12px 0px rgba(12, 22, 32, 0.06);">
+                    <div class="flex items-center justify-center p-0 relative">
+                    <img
+                        src="../Assets/AutomationTestingMetric.png"
+                        alt="Card Image"
+                        class="object-cover rounded-none relative z-10 h-40 w-full" style=" border-bottom: 1px solid #DEE5EC; "
+                    >
+                    </div>
+                    <div class="flex flex-col justify-between px-6 pb-3 pt-2 bg-white">
+                        <div class="flex mb-4">
+                            <div class="flex items-center">
+                                <img
+                                    src="../Assets/BlianCleck.png"
+                                    alt="BlianCleck"
+                                    class="h-8 w-8 rounded-full bg-gray-50"
+                                />
+                                <div class="text-sm pl-4">
+                                    <p class="font-semibold text-black">
+                                        <a href="#" class="text-black">
+                                            <span class="flex flex-col items-end">
+                                                <div class="font-manrope text-sm font-bold leading-[23.4px] text-right opacity-100 text-[#4F6882]">
+                                                    Bian Clark
+                                                </div>
+                                                <div class="font-inter text-[12px] font-normal leading-[18px] text-right text-[#BFCCDA] w-fit h-fit">
+                                                    April 2021
+                                                </div>
+                                            </span>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="ml-auto rounded-full mt-4 bg-[#D6FFEE] flex items-center justify-center">
+                                <span class="font-inter text-[12px] font-semibold leading-[16.8px] text-[#029358] px-3">1170 views</span>
+                            </div>
+                        </div>
+                        <div class="py-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="247" height="1" viewBox="0 0 247 1" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M247 1H0V0H247V1Z" fill="#DEE5EC"/>
+                            </svg>
+                        </div>
+                        <h1 class="font-manrope text-lg font-bold leading-[28.6px] text-left text-black">
+                            Advanced Certified Scrum Master
+                        </h1>
+                        <div class="text-[#4F6882] font-inter text-[14px] font-normal leading-[150%] text-left my-2 ">
+                            “The learning methodology put it all together for me. I ended up...
+                        </div>
+                        <p class="font-medium underline text-black mt-2 text-[14px]">Read more</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="flex flex-col md:w-1/4 w-full mb-4 md:px-4"  >
+                <div class="relative shadow-md overflow-hidden flex flex-col"style="border-radius: 16px; border: 1px solid #DEE5EC; background: #FFF; box-shadow: 0px 1px 0px 0px #DEE5EC, 0px 4px 12px 0px rgba(12, 22, 32, 0.06);">
+                    <div class="flex items-center justify-center p-0 relative">
+                    <img
+                        src="../Assets/Devops Management.png"
+                        alt="Card Image"
+                        class="object-cover rounded-none relative z-10 h-40 w-full" style=" border-bottom: 1px solid #DEE5EC; "
+                    >
+                    </div>
+                    <div class="flex flex-col justify-between px-6 pb-3 pt-2 bg-white">
+                        <div class="flex mb-4">
+                            <div class="flex items-center">
+                                <img
+                                    src="../Assets/BlianCleck.png"
+                                    alt="BlianCleck"
+                                    class="h-8 w-8 rounded-full bg-gray-50"
+                                />
+                                <div class="text-sm pl-4">
+                                    <p class="font-semibold text-black">
+                                        <a href="#" class="text-black">
+                                            <span class="flex flex-col items-end">
+                                                <div class="font-manrope text-sm font-bold leading-[23.4px] text-right opacity-100 text-[#4F6882]">
+                                                    Bian Clark
+                                                </div>
+                                                <div class="font-inter text-[12px] font-normal leading-[18px] text-right text-[#BFCCDA] w-fit h-fit">
+                                                    April 2021
+                                                </div>
+                                            </span>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="ml-auto rounded-full mt-4 bg-[#D6FFEE] flex items-center justify-center">
+                                <span class="font-inter text-[12px] font-semibold leading-[16.8px] text-[#029358] px-3">1170 views</span>
+                            </div>
+                        </div>
+                        <div class="py-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="247" height="1" viewBox="0 0 247 1" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M247 1H0V0H247V1Z" fill="#DEE5EC"/>
+                            </svg>
+                        </div>
+                        <h1 class="font-manrope text-lg font-bold leading-[28.6px] text-left text-black">
+                            Advanced Certified Scrum Master
+                        </h1>
+                        <div class="text-[#4F6882] font-inter text-[14px] font-normal leading-[150%] text-left my-2 ">
+                            “The learning methodology put it all together for me. I ended up...
+                        </div>
+                        <p class="font-medium underline text-black mt-2 text-[14px]">Read more</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="bg-bluecolour px-2">
+    <div class="container mx-auto mb:py-4">
+        <div class="flex flex-wrap justify-between">
+            <!-- Card 1 -->
+            <div class="flex flex-col md:w-1/4 w-full mb-4 md:px-4"  >
+                <div class="relative shadow-md overflow-hidden flex flex-col"style="border-radius: 16px; border: 1px solid #DEE5EC; background: #FFF; box-shadow: 0px 1px 0px 0px #DEE5EC, 0px 4px 12px 0px rgba(12, 22, 32, 0.06);">
+                    <div class="flex items-center justify-center p-0 relative">
+                    <img
+                        src="../Assets/ArchitecturalProjectManager.png"
+                        alt="Card Image"
+                        class="object-cover rounded-none relative z-10 h-40 w-full" style=" border-bottom: 1px solid #DEE5EC; "
+                    >
+                    </div>
+                    <div class="flex flex-col justify-between px-6 pb-3 pt-2 bg-white">
+                        <div class="flex mb-4">
+                            <div class="flex items-center">
+                                <img
+                                    src="../Assets/BlianCleck.png"
+                                    alt="BlianCleck"
+                                    class="h-8 w-8 rounded-full bg-gray-50"
+                                />
+                                <div class="text-sm pl-4">
+                                    <p class="font-semibold text-black">
+                                        <a href="#" class="text-black">
+                                            <span class="flex flex-col items-end">
+                                                <div class="font-manrope text-sm font-bold leading-[23.4px] text-right opacity-100 text-[#4F6882]">
+                                                    Bian Clark
+                                                </div>
+                                                <div class="font-inter text-[12px] font-normal leading-[18px] text-right text-[#BFCCDA] w-fit h-fit">
+                                                    April 2021
+                                                </div>
+                                            </span>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="ml-auto rounded-full mt-4 bg-[#D6FFEE] flex items-center justify-center">
+                                <span class="font-inter text-[12px] font-semibold leading-[16.8px] text-[#029358] px-3">1170 views</span>
+                            </div>
+                        </div>
+                        <div class="py-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="247" height="1" viewBox="0 0 247 1" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M247 1H0V0H247V1Z" fill="#DEE5EC"/>
+                            </svg>
+                        </div>
+                        <h1 class="font-manrope text-lg font-bold leading-[28.6px] text-left text-black">
+                            Advanced Certified Scrum Master
+                        </h1>
+                        <div class="text-[#4F6882] font-inter text-[14px] font-normal leading-[150%] text-left my-2 ">
+                            “The learning methodology put it all together for me. I ended up...
+                        </div>
+                        <p class="font-medium underline text-black mt-2 text-[14px]">Read more</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="flex flex-col md:w-1/4 w-full mb-4 md:px-4"  >
+                <div class="relative shadow-md overflow-hidden flex flex-col"style="border-radius: 16px; border: 1px solid #DEE5EC; background: #FFF; box-shadow: 0px 1px 0px 0px #DEE5EC, 0px 4px 12px 0px rgba(12, 22, 32, 0.06);">
+                    <div class="flex items-center justify-center p-0 relative">
+                    <img
+                        src="../Assets/devops (2).png"
+                        alt="Card Image"
+                        class="object-cover rounded-none relative z-10 h-40 w-full" style=" border-bottom: 1px solid #DEE5EC; "
+                    >
+                    </div>
+                    <div class="flex flex-col justify-between px-6 pb-3 pt-2 bg-white">
+                        <div class="flex mb-4">
+                            <div class="flex items-center">
+                                <img
+                                    src="../Assets/BlianCleck.png"
+                                    alt="BlianCleck"
+                                    class="h-8 w-8 rounded-full bg-gray-50"
+                                />
+                                <div class="text-sm pl-4">
+                                    <p class="font-semibold text-black">
+                                        <a href="#" class="text-black">
+                                            <span class="flex flex-col items-end">
+                                                <div class="font-manrope text-sm font-bold leading-[23.4px] text-right opacity-100 text-[#4F6882]">
+                                                    Bian Clark
+                                                </div>
+                                                <div class="font-inter text-[12px] font-normal leading-[18px] text-right text-[#BFCCDA] w-fit h-fit">
+                                                    April 2021
+                                                </div>
+                                            </span>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="ml-auto rounded-full mt-4 bg-[#D6FFEE] flex items-center justify-center">
+                                <span class="font-inter text-[12px] font-semibold leading-[16.8px] text-[#029358] px-3">1170 views</span>
+                            </div>
+                        </div>
+                        <div class="py-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="247" height="1" viewBox="0 0 247 1" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M247 1H0V0H247V1Z" fill="#DEE5EC"/>
+                            </svg>
+                        </div>
+                        <h1 class="font-manrope text-lg font-bold leading-[28.6px] text-left text-black">
+                            Advanced Certified Scrum Master
+                        </h1>
+                        <div class="text-[#4F6882] font-inter text-[14px] font-normal leading-[150%] text-left my-2 ">
+                            “The learning methodology put it all together for me. I ended up...
+                        </div>
+                        <p class="font-medium underline text-black mt-2 text-[14px]">Read more</p>
+                    </div>
+                </div>
+            </div>
+            
+
+            <!-- Card 3 -->
+            <div class="flex flex-col md:w-1/4 w-full mb-4 md:px-4"  >
+                <div class="relative shadow-md overflow-hidden flex flex-col"style="border-radius: 16px; border: 1px solid #DEE5EC; background: #FFF; box-shadow: 0px 1px 0px 0px #DEE5EC, 0px 4px 12px 0px rgba(12, 22, 32, 0.06);">
+                    <div class="flex items-center justify-center p-0 relative">
+                    <img
+                        src="../Assets/AutomationTestingMetric.png"
+                        alt="Card Image"
+                        class="object-cover rounded-none relative z-10 h-40 w-full" style=" border-bottom: 1px solid #DEE5EC; "
+                    >
+                    </div>
+                    <div class="flex flex-col justify-between px-6 pb-3 pt-2 bg-white">
+                        <div class="flex mb-4">
+                            <div class="flex items-center">
+                                <img
+                                    src="../Assets/BlianCleck.png"
+                                    alt="BlianCleck"
+                                    class="h-8 w-8 rounded-full bg-gray-50"
+                                />
+                                <div class="text-sm pl-4">
+                                    <p class="font-semibold text-black">
+                                        <a href="#" class="text-black">
+                                            <span class="flex flex-col items-end">
+                                                <div class="font-manrope text-sm font-bold leading-[23.4px] text-right opacity-100 text-[#4F6882]">
+                                                    Bian Clark
+                                                </div>
+                                                <div class="font-inter text-[12px] font-normal leading-[18px] text-right text-[#BFCCDA] w-fit h-fit">
+                                                    April 2021
+                                                </div>
+                                            </span>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="ml-auto rounded-full mt-4 bg-[#D6FFEE] flex items-center justify-center">
+                                <span class="font-inter text-[12px] font-semibold leading-[16.8px] text-[#029358] px-3">1170 views</span>
+                            </div>
+                        </div>
+                        <div class="py-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="247" height="1" viewBox="0 0 247 1" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M247 1H0V0H247V1Z" fill="#DEE5EC"/>
+                            </svg>
+                        </div>
+                        <h1 class="font-manrope text-lg font-bold leading-[28.6px] text-left text-black">
+                            Advanced Certified Scrum Master
+                        </h1>
+                        <div class="text-[#4F6882] font-inter text-[14px] font-normal leading-[150%] text-left my-2 ">
+                            “The learning methodology put it all together for me. I ended up...
+                        </div>
+                        <p class="font-medium underline text-black mt-2 text-[14px]">Read more</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="flex flex-col md:w-1/4 w-full mb-4 md:px-4"  >
+                <div class="relative shadow-md overflow-hidden flex flex-col"style="border-radius: 16px; border: 1px solid #DEE5EC; background: #FFF; box-shadow: 0px 1px 0px 0px #DEE5EC, 0px 4px 12px 0px rgba(12, 22, 32, 0.06);">
+                    <div class="flex items-center justify-center p-0 relative">
+                    <img
+                        src="../Assets/Devops Management.png"
+                        alt="Card Image"
+                        class="object-cover rounded-none relative z-10 h-40 w-full" style=" border-bottom: 1px solid #DEE5EC; "
+                    >
+                    </div>
+                    <div class="flex flex-col justify-between px-6 pb-3 pt-2 bg-white">
+                        <div class="flex mb-4">
+                            <div class="flex items-center">
+                                <img
+                                    src="../Assets/BlianCleck.png"
+                                    alt="BlianCleck"
+                                    class="h-8 w-8 rounded-full bg-gray-50"
+                                />
+                                <div class="text-sm pl-4">
+                                    <p class="font-semibold text-black">
+                                        <a href="#" class="text-black">
+                                            <span class="flex flex-col items-end">
+                                                <div class="font-manrope text-sm font-bold leading-[23.4px] text-right opacity-100 text-[#4F6882]">
+                                                    Bian Clark
+                                                </div>
+                                                <div class="font-inter text-[12px] font-normal leading-[18px] text-right text-[#BFCCDA] w-fit h-fit">
+                                                    April 2021
+                                                </div>
+                                            </span>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="ml-auto rounded-full mt-4 bg-[#D6FFEE] flex items-center justify-center">
+                                <span class="font-inter text-[12px] font-semibold leading-[16.8px] text-[#029358] px-3">1170 views</span>
+                            </div>
+                        </div>
+                        <div class="py-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="247" height="1" viewBox="0 0 247 1" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M247 1H0V0H247V1Z" fill="#DEE5EC"/>
+                            </svg>
+                        </div>
+                        <h1 class="font-manrope text-lg font-bold leading-[28.6px] text-left text-black">
+                            Advanced Certified Scrum Master
+                        </h1>
+                        <div class="text-[#4F6882] font-inter text-[14px] font-normal leading-[150%] text-left my-2 ">
+                            “The learning methodology put it all together for me. I ended up...
+                        </div>
+                        <p class="font-medium underline text-black mt-2 text-[14px]">Read more</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-center justify-center w-screen pb-20 py-8">
+                <button class="flex items-center text-white text-center font-inter font-semibold text-base leading-[140%] py-2 px-4 rounded-lg bg-[#9540FF] shadow-[0px_68px_19px_0px_rgba(140,69,251,0.00),_0px_44px_18px_0px_rgba(140,69,251,0.03),_0px_25px_15px_0px_rgba(140,69,251,0.08),_0px_11px_11px_0px_rgba(140,69,251,0.11),_0px_3px_6px_0px_rgba(140,69,251,0.14)]">
+                    View More
+                    <img src="../Assets/rightArrow.svg" alt="Right arrow key inside button" class="ml-2 w-4 h-4" />
+                </button>
+            </div>  
+                                   
+        </div> 
+    </div>  
+</div> 
+
+<div style="background: linear-gradient(284deg, #052D20 0%, #0C583D 80.93%);" class="py-8 ">
+    <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-10 rounded p-4 md:mx-10">
+        <div class="w-full max-w-[90%] md:max-w-[40%] lg:max-w-[30%] h-72 relative mx-auto">  
+            <div class="bg-white rounded-md flex flex-col md:flex-row items-start p-6 shadow-lg relative h-full">  
+                <div class="flex-1 pr-6">
+                    <h2 class="text-lg md:text-3xl font-bold tracking-tight text-[#1E2D3E] mb-2">
+                        Searching for self-paced <br/>certification programs?
+                    </h2>            
+                    <p class="mb-4 text-sm md:text-base">
+                        Upon course completion, you'll earn a <br/>certification and expertise.
+                    </p>
+                    <button class="bg-[#9540FF] text-white text-center font-inter font-semibold text-xs md:text-sm leading-5 rounded-md shadow-custom py-2 px-4 flex items-center justify-center space-x-2">
+                        <span>Explore Now</span>
+                        <img src="../Assets/rightArrow.svg" alt="Right Arrow" class="w-4 h-4"/> 
+                    </button>                                       
+                </div>
+                <img src="../Assets/Search.svg" alt="Search Icon" class="absolute bottom-0 left-0 " />
+                <!-- Background Image -->
+                <img src="../Assets/imagebg.svg" alt="background image for images" class="absolute bottom-0 right-0 w-40 h-40 md:w-72 md:h-64 z-10 rounded" />
+        
+                <!-- Foreground Image -->
+                <img src="../Assets/SelfCertifiedCourse.png" alt="Card Image 1" class="absolute bottom-0 right-0 w-40 h-40 md:w-72 md:h-64 rounded z-20" />
+            </div>
+        </div>
+        
+        
+        <div class="w-full max-w-[90%] md:max-w-[40%] lg:max-w-[30%] h-72 relative mx-auto">  
+            <div class="bg-white rounded-md flex flex-col md:flex-row items-start p-6 shadow-lg relative h-full">  
+                <div class="flex-1 pr-6">
+                    <h2 class="text-lg md:text-3xl font-bold tracking-tight text-[#1E2D3E] mb-2">
+                        Want career programs<br/> with placement aid?
+                    </h2>            
+                    <p class="mb-4 text-sm md:text-base">
+                        Upon course completion, you'll earn a <br/>certification and expertise.
+                    </p>
+                    <button class="bg-[#9540FF] text-white text-center font-inter font-semibold text-xs md:text-sm leading-5 rounded-md shadow-custom py-2 px-4 flex items-center justify-center space-x-2">
+                        <span>Explore Now</span>
+                        <img src="../Assets/rightArrow.svg" alt="Right Arrow" class="w-4 h-4"/> 
+                    </button>                                       
+                </div>
+                <img src="../Assets/Search.svg" alt="Search Icon" class="absolute bottom-0 left-0 " />
+                <!-- Background Image -->
+                <img src="../Assets/imagebg.svg" alt="background image for images" class="absolute bottom-0 right-0 w-40 h-40 md:w-72 md:h-64 z-10 rounded" />
+        
+                <!-- Foreground Image -->
+                <img src="../Assets/CareerProgram.png" alt="Card Image 1" class="absolute bottom-0 right-0 w-40 h-40 md:w-72 md:h-64 rounded z-20" />
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+<!-- Cards in Desktop view -->
+<h1 class="text-center font-manrope font-bold leading-[130%] tracking-[-1.02px] text-[21px] md:text-3xl py-4 sm:py-8" style="color: var(--Text-Content-heading, #0C1620);">
+    Discover StarAgile courses
+</h1>
+
+<div class="flex justify-center items-center">
+    <div class="w-full md:w-auto mx-2">
+        <ul class="p-2">
+            <li class="flex space-x-2 md:space-x-4 shadow bg-white  py-4 rounded-lg relative h-[35px] items-center">
+                
+                <!-- Image: Popular Programs -->
+                <img src="../Assets/popular.png" alt="Popular Programs" class="w-32 h-9 md:w-32 md:h-9 " />
+                
+                <!-- Text Link: Worth the investment -->
+                <a class="block py-0 px-1 md:px-2 rounded-lg text-[14px] md:text-[16px]" style="color: var(--text-interaction-button-default, #1E2D3E); font-weight: 600; line-height: 140%;">
+                    Worth the investment
+                </a>  
+
+                <!-- More Icon (Visible only on mobile) -->
+                <img src="../Assets/moreIcon.png" alt="Icon" class="w-4 h-4 md:hidden block" />
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<div class=" px-2 md:mt-10">
+    <div class="container mx-auto py-4">
+        <div class="flex flex-wrap justify-between ">
+            <!-- Card 1 -->
+            <!-- <div class="flex flex-col w-full md:w-1/4 mb-4 md:px-2">
+                <div class="relative shadow-md overflow-hidden flex flex-col" style="border-radius: 16px;">
+                    <div class="flex items-center justify-center w-full p-0 mb-4 relative">
+                        <img
+                            src="../Assets/cspo.png"
+                            alt="Card Image"
+                            class="object-cover w-full rounded-none relative z-10"
+                        >
+                    </div>
+                    <div class="mb-4">
+                        <div class="flex items-start gap-2  px-2">
+                            <button class="border text-[#718AA5] text-[10.5px] py-1 font-normal rounded-full leading-[140%] font-inter px-3 bg-[#1E2D3E] border-[#DEE5EC]" style="background-color: #F1F4F7;">
+                                Agile and Scrum
+                            </button>                        
+                        </div>
+                        <h1 class="overflow-hidden text-ellipsis  text-base font-bold leading-[130%] font-manrope px-2 pt-2" style="color: #1E2D3E;">
+                            Certified Scrum Master
+                        </h1>
+                    </div> 
+                
+                    <div class="flex gap-x-12 px-4">
+                        <div class="flex items-center">
+                            <img src="../Assets/People1.svg" alt="Enrollment"/>
+                            <div class="px-2 text-[#34495F] text-xs">266 Enrolled</div>
+                        </div>
+                        <div class="flex items-center">
+                            <img src="../Assets/Alarm.svg" alt="Time" />
+                            <div class="px-2 text-[#34495F] text-xs">10 hrs</div>
+                        </div>
+                    </div>
+
+                    <div class="py-4 flex justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="500" height="1" viewBox="0 0 263 1" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M263 1H0V0H263V1Z" fill="#DEE5EC"/>
+                        </svg>
+                    </div>
+
+                    <div class="flex justify-between items-center px-4">
+                        <div>
+                            <div class="text-[#718AA5] font-inter text-[12px] font-normal leading-[150%]">
+                                From <span class="line-through">₹7,909.03</span>
+                            </div>                            
+                            <div class="text-[#0C1620] font-manrope text-[22px] font-bold leading-[130%]">
+                                &#8377; 7,909.03
+                            </div>
+                        </div>
+                        
+                        <button class="bg-transparent text-[#852AF3] text-center font-inter text-[12px] font-semibold leading-[140%] border border-[#852AF3] rounded-lg p-2" style="border-color: #852AF3; color:#852AF3;">
+                            Explore Now
+                        </button>
+                    </div>
+
+                    <div class="flex justify-center items-center p-2 gap-4 mt-4 bg-[#D6FFEE] rounded">
+                        <h1 class="text-[#4F6882] font-inter text-[12px] font-semibold leading-[150%]">
+                            Next Schedule <b class="text-black">October 25, 2021</b>
+                        </h1>
+                    </div>
+                    
+                </div>
+            </div> -->
+            <div class="flex flex-col w-full md:w-1/4 mb-4 md:px-2">
+                <div class="relative shadow-md overflow-hidden flex md:flex-col rounded-lg flex-row">
+                    <!-- Image Container -->
+                    <div class="flex items-center justify-center md:w-full md:mb-4 relative">
+                        <img
+                            src="../Assets/cspo.png"
+                            alt="Card Image"
+                            class="object-cover w-full h-full "
+                        >
+                    </div>
+                    <div class="absolute top-0 right-0 flex items-center justify-center z-10  rounded-tr-full rounded-bl-full md:hidden" style="background-color: #4DC972; padding: 3px 8px;">
+                    <!-- Image Container with Background Color -->
+                    <div class="bg-[#4DC972] px-1 rounded-full">
+                        <img src="../Assets/tag.png" alt="Tag Icon" class="w-3 h-3"> 
+                    </div>
+                    <!-- Best Seller Text -->
+                    <div class="flex justify-center items-center 
+                        bg-[#4DC972] text-white text-[8px] font-semibold leading-[10px] 
+                        "
+                        style="box-shadow: 0px 161px 45px 0px rgba(42, 71, 118, 0.00), 0px 103px 41px 0px rgba(42, 71, 118, 0.01), 0px 58px 35px 0px rgba(42, 71, 118, 0.02), 0px 26px 26px 0px rgba(42, 71, 118, 0.03), 0px 6px 14px 0px rgba(42, 71, 118, 0.04);
+                        border-top-right-radius: 50%; /* Full radius for top-right corner */
+                        border-bottom-left-radius: 50%; /* Full radius for bottom-left corner */
+                        background-color: #4DC972; font-size: 8px;">
+                        Best Seller
+                    </div>
+                </div>
+                    <!-- Category and Title -->
+                    <div>
+                        <div class="mb-4">
+                            <div class="flex items-start gap-2  px-2 md:block hidden">
+                                <button class="border text-[#718AA5] text-[10.5px] py-1 font-normal rounded-full leading-[140%] font-inter px-3 bg-[#1E2D3E] border-[#DEE5EC]" style="background-color: #F1F4F7;">
+                                    Agile and Scrum
+                                </button>                       
+                            </div>
+                            <h1 class="overflow-hidden text-ellipsis text-base font-bold leading-[130%] font-manrope md:px-4 mt-6 px-2 md:mt-2 text-[#1E2D3E]">
+                                Certified Scrum Master
+                            </h1>
+                        </div>
+                        <div class="flex md:px-4 md:gap-x-12 text-xs text-[#34495F] px-2 gap-4">
+                            <div class="flex items-center">
+                                <img src="../Assets/People1.svg" alt="Enrollment" class="w-4 h-4" />
+                                <span class="md:px-2 text-[#34495F] text-xs">266 Enrolled</span>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="../Assets/Alarm.svg" alt="Time" class="w-4 h-4" />
+                                <span class="md:px-2 text-[#34495F] text-xs">10 hrs</span>
+                            </div>
+                            <div class="flex items-center gap-1 md:hidden">
+                                <img src="../Assets/Star.svg" alt="Rating" class="w-4 h-4" />
+                                <span class="md:px-2 text-[#34495F] text-xs">4.0</span>
+                            </div>
+                        </div>
+                       
+                        <!-- Next Schedule -->
+                         <div class="mt-8 md:mt-0">
+                            <div class="flex justify-center items-center p-2 mt-2 w-60 mt-4 bg-[#D6FFEE] rounded md:hidden">
+                                <h1 class="text-[#4F6882] font-inter text-xs font-semibold leading-[150%]">
+                                    Next Schedule <b class="text-black text-xs">October 25, 2021</b>
+                                </h1>
+                            </div>
+                         </div>
+                       
+                    </div>
+                    <!-- Divider -->
+                    <div class="py-4 flex justify-center md:flex hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="500" height="1" viewBox="0 0 263 1" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M263 1H0V0H263V1Z" fill="#DEE5EC"/>
+                        </svg>
+                    </div>
+                    <!-- Pricing and Button -->
+                    <div class="flex justify-between items-center md:px-4">
+                        <!-- Cost Section: Hidden in Mobile -->
+                        <div class="hidden md:block">
+                            <div class="text-[#718AA5] font-inter text-xs font-normal leading-[150%]">
+                                From <span class="line-through">₹7,909.03</span>
+                            </div>
+                            <div class="text-[#0C1620] font-manrope text-[22px] font-bold leading-[130%]">
+                                ₹7,909.03
+                            </div>
+                        </div>
+                        <button class="hidden md:block bg-transparent text-[#852AF3] text-center font-inter text-[12px] font-semibold leading-[140%] border border-[#852AF3] rounded-lg p-2">
+                            Explore Now
+                        </button>
+                    </div>
+                    <!-- Next Schedule -->
+                    <div class="flex justify-center items-center p-2 gap-4 mt-4 bg-[#D6FFEE] rounded md:block hidden">
+                        <h1 class="text-[#4F6882] font-inter text-[12px] font-semibold leading-[150%]">
+                            Next Schedule <b class="text-black">October 25, 2021</b>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+
+            <!-- Card 2 -->
+            <div class="flex flex-col w-full md:w-1/4 mb-4 md:px-2">
+                <div class="relative shadow-md overflow-hidden flex md:flex-col rounded-lg flex-row">
+                    <!-- Image Container -->
+                    <div class="flex items-center justify-center md:w-full md:mb-4 relative">
+                        <img
+                            src="../Assets/safe.jpg"
+                            alt="Card Image"
+                            class="object-cover w-full h-full "
+                        >
+                    </div>
+                    <div class="absolute top-0 right-0 md:hidden flex items-center justify-center z-10 gap-1 rounded-tr-full rounded-bl-full" style="background-color: #3949F6; padding: 3px 8px;">
+                        <!-- Image Container with Background Color -->
+                        <div class="rounded-full">
+                            <img src="../Assets/like.png" alt="Tag Icon" class="w-3 h-3"> 
+                        </div>
+                        <!-- Best Seller Text -->
+                        <div class="flex justify-center items-center gap-[1px] 
+                            bg-[#4DC972] text-white text-[8px] font-semibold leading-[10px] 
+                            px-[6px] py-[2px]"
+                            style="box-shadow: 0px 161px 45px 0px rgba(42, 71, 118, 0.00), 0px 103px 41px 0px rgba(42, 71, 118, 0.01), 0px 58px 35px 0px rgba(42, 71, 118, 0.02), 0px 26px 26px 0px rgba(42, 71, 118, 0.03), 0px 6px 14px 0px rgba(42, 71, 118, 0.04);
+                            border-top-right-radius: 50%; /* Full radius for top-right corner */
+                            border-bottom-left-radius: 50%; /* Full radius for bottom-left corner */
+                            background-color: #3949f6; font-size: 8px;">
+                            RECOMMENDED
+                        </div>
+                    </div>
+                    <!-- Category and Title -->
+                    <div>
+                        <div class="mb-4">
+                            <div class="flex items-start gap-2  px-2 md:block hidden">
+                                <button class="border text-[#718AA5] text-[10.5px] py-1 font-normal rounded-full leading-[140%] font-inter px-3 bg-[#1E2D3E] border-[#DEE5EC]" style="background-color: #F1F4F7;">
+                                    Agile and Scrum
+                                </button>                       
+                            </div>
+                            <h1 class="overflow-hidden text-ellipsis text-base font-bold leading-[130%] font-manrope md:px-4 mt-6 px-2 md:mt-2 text-[#1E2D3E]">
+                                Certified Scrum Master
+                            </h1>
+                        </div>
+                        <div class="flex md:px-4 md:gap-x-12 text-xs text-[#34495F] px-2 gap-4">
+                            <div class="flex items-center">
+                                <img src="../Assets/People1.svg" alt="Enrollment" class="w-4 h-4" />
+                                <span class="md:px-2 text-[#34495F] text-xs">266 Enrolled</span>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="../Assets/Alarm.svg" alt="Time" class="w-4 h-4" />
+                                <span class="md:px-2 text-[#34495F] text-xs">10 hrs</span>
+                            </div>
+                            <div class="flex items-center gap-1 md:hidden">
+                                <img src="../Assets/Star.svg" alt="Rating" class="w-4 h-4" />
+                                <span class="md:px-2 text-[#34495F] text-xs">4.0</span>
+                            </div>
+                        </div>
+                       
+                        <!-- Next Schedule -->
+                         <div class="mt-8 md:mt-0">
+                            <div class="flex justify-center items-center p-2 mt-2 w-60 mt-4 bg-[#D6FFEE] rounded md:hidden">
+                                <h1 class="text-[#4F6882] font-inter text-xs font-semibold leading-[150%]">
+                                    Next Schedule <b class="text-black text-xs">October 25, 2021</b>
+                                </h1>
+                            </div>
+                         </div>
+                       
+                    </div>
+                    <!-- Divider -->
+                    <div class="py-4 flex justify-center md:flex hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="500" height="1" viewBox="0 0 263 1" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M263 1H0V0H263V1Z" fill="#DEE5EC"/>
+                        </svg>
+                    </div>
+                    <!-- Pricing and Button -->
+                    <div class="flex justify-between items-center md:px-4">
+                        <!-- Cost Section: Hidden in Mobile -->
+                        <div class="hidden md:block">
+                            <div class="text-[#718AA5] font-inter text-xs font-normal leading-[150%]">
+                                From <span class="line-through">₹7,909.03</span>
+                            </div>
+                            <div class="text-[#0C1620] font-manrope text-[22px] font-bold leading-[130%]">
+                                ₹7,909.03
+                            </div>
+                        </div>
+                        <button class="hidden md:block bg-transparent text-[#852AF3] text-center font-inter text-[12px] font-semibold leading-[140%] border border-[#852AF3] rounded-lg p-2">
+                            Explore Now
+                        </button>
+                    </div>
+                    <!-- Next Schedule -->
+                    <div class="flex justify-center items-center p-2 gap-4 mt-4 bg-[#D6FFEE] rounded md:block hidden">
+                        <h1 class="text-[#4F6882] font-inter text-[12px] font-semibold leading-[150%]">
+                            Next Schedule <b class="text-black">October 25, 2021</b>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            
+            <!--  Card 3-->
+            <div class="flex flex-col w-full md:w-1/4 mb-4 md:px-2">
+                <div class="relative shadow-md overflow-hidden flex md:flex-col rounded-lg flex-row">
+                    <!-- Image Container -->
+                    <div class="flex items-center justify-center md:w-full md:mb-4 relative">
+                        <img
+                            src="../Assets/safe.jpg"
+                            alt="Card Image"
+                            class="object-cover w-full h-full "
+                        >
+                    </div>
+                    <div class="absolute top-0 right-0 md:hidden flex items-center justify-center z-10 gap-1 rounded-tr-full rounded-bl-full" style="background-color: #3949F6; padding: 3px 8px;">
+                        <!-- Image Container with Background Color -->
+                        <div class="rounded-full">
+                            <img src="../Assets/like.png" alt="Tag Icon" class="w-3 h-3"> 
+                        </div>
+                        <!-- Best Seller Text -->
+                        <div class="flex justify-center items-center gap-[1px] 
+                            bg-[#4DC972] text-white text-[8px] font-semibold leading-[10px] 
+                            px-[6px] py-[2px]"
+                            style="box-shadow: 0px 161px 45px 0px rgba(42, 71, 118, 0.00), 0px 103px 41px 0px rgba(42, 71, 118, 0.01), 0px 58px 35px 0px rgba(42, 71, 118, 0.02), 0px 26px 26px 0px rgba(42, 71, 118, 0.03), 0px 6px 14px 0px rgba(42, 71, 118, 0.04);
+                            border-top-right-radius: 50%; /* Full radius for top-right corner */
+                            border-bottom-left-radius: 50%; /* Full radius for bottom-left corner */
+                            background-color: #3949f6; font-size: 8px;">
+                            RECOMMENDED
+                        </div>
+                    </div>
+                    <!-- Category and Title -->
+                    <div>
+                        <div class="mb-4">
+                            <div class="flex items-start gap-2  px-2 md:block hidden">
+                                <button class="border text-[#718AA5] text-[10.5px] py-1 font-normal rounded-full leading-[140%] font-inter px-3 bg-[#1E2D3E] border-[#DEE5EC]" style="background-color: #F1F4F7;">
+                                    Agile and Scrum
+                                </button>                       
+                            </div>
+                            <h1 class="overflow-hidden text-ellipsis text-base font-bold leading-[130%] font-manrope md:px-4 mt-6 px-2 md:mt-2 text-[#1E2D3E]">
+                                Certified Scrum Master
+                            </h1>
+                        </div>
+                        <div class="flex md:px-4 md:gap-x-12 text-xs text-[#34495F] px-2 gap-4">
+                            <div class="flex items-center">
+                                <img src="../Assets/People1.svg" alt="Enrollment" class="w-4 h-4" />
+                                <span class="md:px-2 text-[#34495F] text-xs">266 Enrolled</span>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="../Assets/Alarm.svg" alt="Time" class="w-4 h-4" />
+                                <span class="md:px-2 text-[#34495F] text-xs">10 hrs</span>
+                            </div>
+                            <div class="flex items-center gap-1 md:hidden">
+                                <img src="../Assets/Star.svg" alt="Rating" class="w-4 h-4" />
+                                <span class="md:px-2 text-[#34495F] text-xs">4.0</span>
+                            </div>
+                        </div>
+                       
+                        <!-- Next Schedule -->
+                         <div class="mt-8 md:mt-0">
+                            <div class="flex justify-center items-center p-2 mt-2 w-60 mt-4 bg-[#D6FFEE] rounded md:hidden">
+                                <h1 class="text-[#4F6882] font-inter text-xs font-semibold leading-[150%]">
+                                    Next Schedule <b class="text-black text-xs">October 25, 2021</b>
+                                </h1>
+                            </div>
+                         </div>
+                       
+                    </div>
+                    <!-- Divider -->
+                    <div class="py-4 flex justify-center md:flex hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="500" height="1" viewBox="0 0 263 1" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M263 1H0V0H263V1Z" fill="#DEE5EC"/>
+                        </svg>
+                    </div>
+                    <!-- Pricing and Button -->
+                    <div class="flex justify-between items-center md:px-4">
+                        <!-- Cost Section: Hidden in Mobile -->
+                        <div class="hidden md:block">
+                            <div class="text-[#718AA5] font-inter text-xs font-normal leading-[150%]">
+                                From <span class="line-through">₹7,909.03</span>
+                            </div>
+                            <div class="text-[#0C1620] font-manrope text-[22px] font-bold leading-[130%]">
+                                ₹7,909.03
+                            </div>
+                        </div>
+                        <button class="hidden md:block bg-transparent text-[#852AF3] text-center font-inter text-[12px] font-semibold leading-[140%] border border-[#852AF3] rounded-lg p-2">
+                            Explore Now
+                        </button>
+                    </div>
+                    <!-- Next Schedule -->
+                    <div class="flex justify-center items-center p-2 gap-4 mt-4 bg-[#D6FFEE] rounded md:block hidden">
+                        <h1 class="text-[#4F6882] font-inter text-[12px] font-semibold leading-[150%]">
+                            Next Schedule <b class="text-black">October 25, 2021</b>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 4 -->
+            <div class="flex flex-col w-full md:w-1/4 mb-4 md:px-2 hidden md:block">
+                <div class="relative shadow-md overflow-hidden flex md:flex-col rounded-lg flex-row">
+                    <!-- Image Container -->
+                    <div class="flex items-center justify-center md:w-full md:mb-4 relative">
+                        <img
+                            src="../Assets/cspo.png"
+                            alt="Card Image"
+                            class="object-cover w-full h-full "
+                        >
+                    </div>
+                    <div class="absolute top-0 right-0 md:hidden flex items-center justify-center z-10 gap-1 rounded-tr-full rounded-bl-full" style="background-color: #3949F6; padding: 3px 8px;">
+                        <!-- Image Container with Background Color -->
+                        <div class="bg-[#4DC972] p-1 rounded-full">
+                            <img src="../Assets/like.png" alt="Tag Icon" class="w-3 h-3"> 
+                        </div>
+                        <!-- Best Seller Text -->
+                        <div class="flex justify-center items-center gap-[1px] 
+                            bg-[#4DC972] text-white text-[8px] font-semibold leading-[10px] 
+                            px-[6px] py-[2px]"
+                            style="box-shadow: 0px 161px 45px 0px rgba(42, 71, 118, 0.00), 0px 103px 41px 0px rgba(42, 71, 118, 0.01), 0px 58px 35px 0px rgba(42, 71, 118, 0.02), 0px 26px 26px 0px rgba(42, 71, 118, 0.03), 0px 6px 14px 0px rgba(42, 71, 118, 0.04);
+                            border-top-right-radius: 50%; /* Full radius for top-right corner */
+                            border-bottom-left-radius: 50%; /* Full radius for bottom-left corner */
+                            background-color: #3949f6; font-size: 8px;">
+                            RECOMMENDED
+                        </div>
+                    </div>
+                    <!-- Category and Title -->
+                    <div>
+                        <div class="mb-4">
+                            <div class="flex items-start gap-2  px-2 md:block hidden">
+                                <button class="border text-[#718AA5] text-[10.5px] py-1 font-normal rounded-full leading-[140%] font-inter px-3 bg-[#1E2D3E] border-[#DEE5EC]" style="background-color: #F1F4F7;">
+                                    Agile and Scrum
+                                </button>                       
+                            </div>
+                            <h1 class="overflow-hidden text-ellipsis text-base font-bold leading-[130%] font-manrope md:px-4 mt-6 px-2 md:mt-2 text-[#1E2D3E]">
+                                Certified Scrum Master
+                            </h1>
+                        </div>
+                        <div class="flex md:px-4 md:gap-x-12 text-xs text-[#34495F] px-2 gap-4">
+                            <div class="flex items-center">
+                                <img src="../Assets/People1.svg" alt="Enrollment" class="w-4 h-4" />
+                                <span class="md:px-2 text-[#34495F] text-xs">266 Enrolled</span>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="../Assets/Alarm.svg" alt="Time" class="w-4 h-4" />
+                                <span class="md:px-2 text-[#34495F] text-xs">10 hrs</span>
+                            </div>
+                            <div class="flex items-center gap-1 md:hidden">
+                                <img src="../Assets/Star.svg" alt="Rating" class="w-4 h-4" />
+                                <span class="md:px-2 text-[#34495F] text-xs">4.0</span>
+                            </div>
+                        </div>
+                       
+                        <!-- Next Schedule -->
+                         <div class="mt-8 md:mt-0">
+                            <div class="flex justify-center items-center p-2 mt-2 w-60 mt-4 bg-[#D6FFEE] rounded md:hidden">
+                                <h1 class="text-[#4F6882] font-inter text-xs font-semibold leading-[150%]">
+                                    Next Schedule <b class="text-black text-xs">October 25, 2021</b>
+                                </h1>
+                            </div>
+                         </div>
+                       
+                    </div>
+                    <!-- Divider -->
+                    <div class="py-4 flex justify-center md:flex hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="500" height="1" viewBox="0 0 263 1" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M263 1H0V0H263V1Z" fill="#DEE5EC"/>
+                        </svg>
+                    </div>
+                    <!-- Pricing and Button -->
+                    <div class="flex justify-between items-center md:px-4">
+                        <!-- Cost Section: Hidden in Mobile -->
+                        <div class="hidden md:block">
+                            <div class="text-[#718AA5] font-inter text-xs font-normal leading-[150%]">
+                                From <span class="line-through">₹7,909.03</span>
+                            </div>
+                            <div class="text-[#0C1620] font-manrope text-[22px] font-bold leading-[130%]">
+                                ₹7,909.03
+                            </div>
+                        </div>
+                        <button class="hidden md:block bg-transparent text-[#852AF3] text-center font-inter text-[12px] font-semibold leading-[140%] border border-[#852AF3] rounded-lg p-2">
+                            Explore Now
+                        </button>
+                    </div>
+                    <!-- Next Schedule -->
+                    <div class="flex justify-center items-center p-2 gap-4 mt-4 bg-[#D6FFEE] rounded md:block hidden">
+                        <h1 class="text-[#4F6882] font-inter text-[12px] font-semibold leading-[150%]">
+                            Next Schedule <b class="text-black">October 25, 2021</b>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="flex justify-center py-6">
+            <div class="flex space-x-4">
+                <img src="../Assets/leftArrow.png" alt="Left Arrow" class="h-8">
+                <img src="../Assets/download.png" alt="Right Arrow" class="h-8">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Next Schedule Section -->
+
+<div style="background: linear-gradient(284deg, #052D20 0%, #0C583D 80.93%);" class="mx-4 md:mx-10 rounded-lg py-4 my-10">
+    <div class="container mx-auto md:py-4 md:px-8">
+        <div class="relative flex flex-col md:flex-row rounded-lg overflow-hidden" style="border-radius: 16px;">
+            <!-- Left Section: Content -->
+            <div class="flex-1 md:pr-8 flex flex-col justify-between">
+                <div>
+                    <h2 class="text-white font-manrope md:text-3xl font-bold leading-[130%] py-4 tracking-[-1.02px] md:pb-10 text-[17.5px] text-center md:text-left" style="font-weight: 800; color: var(--text-interaction-button-white, #FFF);">
+                        Stay Informed with Our Newsletter
+                    </h2>
+
+                    <div class="hidden md:block">
+                        <div>
+                            <div class="flex rounded">
+                                <div class="w-full pt-3 mt-2 rounded p-2 pr-72" style="background: linear-gradient(96deg, rgba(197, 255, 218, 0.09) 0%, rgba(197, 255, 218, 0.03) 29.77%, rgba(197, 255, 218, 0.00) 87.22%);">
+                                    <img src="../Assets/People2.svg" alt="people" />
+                                    <div class="text-2xl font-normal leading-[33.6px] tracking-[-0.84px] font-[Manrope]" style="color: #B0FFDF;">
+                                        3,00,000+
+                                    </div>
+                                    <div class="text-white text-[12px] font-normal leading-[18px] font-[Inter] py-2">
+                                        Subscription
+                                    </div>
+                                </div>
+                                <div class="w-full pt-3 mt-2 rounded p-2 pr-64" style="background: linear-gradient(96deg, rgba(197, 255, 218, 0.09) 0%, rgba(197, 255, 218, 0.03) 29.77%, rgba(197, 255, 218, 0.00) 87.22%);">
+                                    <img src="../Assets/CheckBox.svg" alt="people" />
+                                    <div class="text-2xl font-normal leading-[33.6px] tracking-[-0.84px] font-[Manrope]"style="color: #B0FFDF;">
+                                        100%
+                                    </div>
+                                    <div class="text-white text-[12px] font-normal leading-[18px] font-[Inter] py-2">
+                                        Informative
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="w-[114px] h-[112px] pt-3 mt-6 rounded p-2 mr-34 pl-24" style="background: linear-gradient(101deg, rgba(197, 255, 218, 0.00) 36.63%, rgba(197, 255, 218, 0.09) 76.66%, rgba(197, 255, 218, 0.30) 97.41%);">
+                                </div>
+                                <div class="w-full pt-3 mt-6 rounded p-2 pr-72 ml-10" style="background: linear-gradient(96deg, rgba(197, 255, 218, 0.09) 0%, rgba(197, 255, 218, 0.03) 29.77%, rgba(197, 255, 218, 0.00) 87.22%);">
+                                    <img src="../Assets/CheckBox.svg" alt="people" />
+                                    <div class="text-2xl font-normal leading-[33.6px] tracking-[-0.84px] font-[Manrope]"style="color: #B0FFDF;">
+                                        100%
+                                    </div>
+                                    <div class="text-white text-[12px] font-normal leading-[18px] font-[Inter] py-2">
+                                        Informative
+                                    </div>
+                                </div>
+                                <div class="w-full pt-3 mt-6 rounded p-2 pr-44" style="background: linear-gradient(96deg, rgba(197, 255, 218, 0.09) 0%, rgba(197, 255, 218, 0.03) 29.77%, rgba(197, 255, 218, 0.00) 87.22%);">
+                                    <img src="../Assets/Globe.svg" alt="people" />
+                                    <div class="text-2xl font-normal leading-[33.6px] tracking-[-0.84px] font-[Manrope]" style="color: #B0FFDF;">
+                                        25+
+                                    </div>
+                                    <div class="text-white text-[12px] font-normal leading-[18px] font-[Inter] py-2">
+                                        Countries
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg p-4 md:px-8 max-w-md mx-auto md:my-0 md:ml-auto md:flex-shrink-0 md:mr-4 flex-grow">
+                <h2 class="text-[#0C1620] font-manrope text-[15.75px] font-bold leading-[20.475px] mt-4 md:text-[20px] md:leading-[26px] md:font-bold">
+                    Receive Our Latest News and Updates
+                </h2>
+                <form class="mx-2">
+                    <div class="mb-4 relative w-full mt-4">
+                        <input 
+                            type="text" 
+                            id="name" 
+                            class="block w-full rounded border border-[#DEE5EC] px-3 pr-8 py-3 focus:outline-none focus:ring-0" 
+                            placeholder="Name" 
+                            required
+                        >
+                        <img src="../Assets/imp.svg" alt="Star" class="absolute left-14 top-1/2 transform -translate-y-1/2" />
+                    </div>
+            
+                    <div class="mb-4 relative w-full">
+                        <input 
+                            type="email" 
+                            id="email" 
+                            class="block w-full rounded border border-[#DEE5EC] px-3 pr-8 py-3 focus:outline-none focus:ring-0" 
+                            placeholder="Email" 
+                            required
+                        >
+                        <img src="../Assets/Imp.svg" alt="Star" class="absolute left-14 top-1/2 transform -translate-y-1/2" />
+                    </div>
+            
+                    <div class="mb-4">
+                        <select class="block w-full border border-[#DEE5EC] rounded-md p-2 py-3 text-[14px] font-normal leading-[21px] font-inter focus:outline-none focus:ring focus:ring-blue-500" style="color: #718AA5">
+                            <option value="" disabled selected>Type of Interest</option>
+                            <option value="certification">Certification Programs</option>
+                            <option value="career">Career Programs</option>
+                            <option value="placement">Placement Aid</option>
+                        </select>
+                    </div>
+            
+                    <button type="submit" class="flex items-center justify-center w-full text-white py-3 rounded hover:bg-blue-600" style="border-radius: 7px; border-bottom: 2px solid #9540FF; background: #9540FF;">
+                        Submit
+                        <img src="../Assets/rightArrow.svg" alt="right arrow" class="ml-2" />
+                    </button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+            
+
+<!-- Recoumended free webinar Section -->
+
+<div class="px-2 md:px-12">
+    <div class="flex justify-between items-center py-4">
+        <h1 class="text-text-content-heading font-manrope font-bold leading-[120%] tracking-[-1.02px] text-2xl md:text-4xl">
+            <span class="block md:inline">Recommended</span>
+            <span class="block md:inline">FREE Webinars!</span>
+        </h1>
+        <div class="flex items-center">
+            <div class="md:w-12 md:h-12 w-[41px] h-[41px] bg-lightgray bg-center bg-cover mr-4 hidden md:block" style="background-image: url('../Assets/animation.gif');"></div>
+                <div class="md:hidden">
+                    <img src="../Assets/animation.gif" alt="Animation" class="w-8 h-8 md:w-10 md:h-10">
+                </div>
+            <div class="text-sm font-inter italic font-bold leading-[130%] md:text-2xl whitespace-nowrap" style="color: #006A77;">
+                Booking Soon!
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="flex justify-center items-center min-w-screen">
+    <!-- Cards container -->
+    <div class="flex space-x-6 overflow-x-auto px-2 pb-6">
+        <!-- card-1 -->
+        <div class="flex-shrink-0 w-[295px]">
+            <div class="relative shadow-lg overflow-hidden" style="border-radius: 16px;">
+                <div style="background-color: #BDF8FF;" class="pt-2">
+                    <div class="pl-2">
+                        <div class="flex flex-col items-start h-full">
+                            <img src="../Assets/Group 1410084041.png" alt="FREE" class="mb-1">
+                            <div class="text-[#1E2D3E] font-manrope text-sm font-bold leading-[130%]">
+                                Explore Your Inner<br /> Business Analysis
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute top-2 right-2 bottom-0">
+                        <img src="../Assets/backstar.svg" alt="background svg" class="absolute z-0 w-44 h-44" />
+                        <img src="../Assets/Lawyer.png" alt="Lawyer" class="bottom-0 right-0 z-10 h-auto object-contain"  />
+                    </div>
+                    <div class="w-76 h-12 flex items-center mt-6" style="background: var(--Brand-Secondary-Sherpa-Blue-900-Main, #004851);">
+                        <div class="flex flex-col items-start px-2">
+                            <div>
+                                <img src="../Assets/Logo.png" alt="logo"/>
+                            </div>
+                            <div class="text-white font-inter text-xs font-semibold leading-[150%] self-stretch mt-1">
+                                MasterClass
+                            </div>
+                        </div>
+                        <img src="../Assets/Line.svg" alt="Line between the text"/>
+                        <div class="px-2">
+                            <div class="text-white font-inter font-semibold leading-[150%] self-stretch" style="font-size: 10px;">
+                                Pragy Agarwal
+                            </div>
+                            <div class="text-white font-inter font-normal leading-[150%]" style="font-size: 6px;">
+                                Senior Software Engineer
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2">
+                    <div class="p-2">
+                        <h3 class="text-[#1E2D3E] font-manrope md:text-base text-sm font-bold leading-[130%] py-2">
+                            Discover your potential by joining <br/> free webinars on project...
+                        </h3>
+                        <div>
+                            <div class="flex items-center py-1">
+                                <img src="../Assets/Alarm.svg" alt="Alarm"/>
+                                <p class="text-[#34495F] font-inter text-xs font-normal leading-[150%] ml-2">
+                                    July 18, 2024
+                                </p>
+                            </div>
+                            <div class="flex items-center py-1">
+                                <img src="../Assets/Calender.svg" alt="Calender"/>
+                                <p class="text-[#34495F] font-inter text-xs font-normal leading-[150%] ml-2">
+                                    7:30 PM (IST) - 10:30 PM (IST)
+                                </p>
+                            </div>
+                            <div class="py-2">
+                                <img src="../Assets/Line1.svg" Alt="Line between Calender and Registerations"/>
+                            </div>
+                            <div class="flex justify-between items-center mt-2">
+                                <div class="flex items-center">
+                                    <img src="../Assets/Reg.svg" alt="Registerations" />
+                                    <p class="text-[#34495F] font-inter text-xs font-semibold leading-[150%] ml-2">
+                                        6630 Registered
+                                    </p>
+                                </div>
+                                <button class="text-black border border-black px-4 py-1 rounded-lg" style="color: var(--Brand-Primary-600, #852AF3); border-color: var(--Brand-Primary-600, #852AF3);">
+                                    Register Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- card-2 -->
+        <div class="flex-shrink-0 w-[295px]">
+            <div class="relative shadow-lg overflow-hidden"  style="border-radius: 16px;">
+                <div style="background-color: #BDF8FF;" class="pt-2">
+                    <div class="pl-2">
+                        <div class="flex flex-col items-start h-full">
+                            <img src="../Assets/Group 1410084041.png" alt="FREE" class="mb-1">
+                            <div class="text-[#1E2D3E] font-manrope text-sm font-bold leading-[130%]">
+                                Explore Your Inner<br /> Business Analysis
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute top-2 right-2 bottom-0">
+                        <img src="../Assets/backstar.svg" alt="background svg" class="absolute z-0 w-44 h-44" />
+                        <img src="../Assets/image 20203.png" alt="Lawyer" class="bottom-0 right-0 z-10 h-auto object-contain"  />
+                    </div>
+                    <div class="w-76 h-12 flex items-center mt-6" style="background: var(--Brand-Secondary-Sherpa-Blue-900-Main, #004851);">
+                        <div class="flex flex-col items-start px-2">
+                            <div>
+                                <img src="../Assets/Logo.png" alt="logo"/>
+                            </div>
+                            <div class="text-white font-inter text-xs font-semibold leading-[150%] self-stretch mt-1">
+                                MasterClass
+                            </div>
+                        </div>
+                        <img src="../Assets/Line.svg" alt="Line between the text"/>
+                        <div class="px-2">
+                            <div class="text-white font-inter font-semibold leading-[150%] self-stretch" style="font-size: 10px;">
+                                Pragy Agarwal
+                            </div>
+                            <div class="text-white font-inter font-normal leading-[150%]" style="font-size: 6px;">
+                                Senior Software Engineer
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2">
+                    <div class="p-2">
+                        <h3 class="text-[#1E2D3E] font-manrope md:text-base text-sm font-bold leading-[130%] py-2">
+                            Discover your potential by joining <br/> free webinars on project...
+                        </h3>
+                        <div>
+                            <div class="flex items-center py-1">
+                                <img src="../Assets/Alarm.svg" alt="Alarm"/>
+                                <p class="text-[#34495F] font-inter text-xs font-normal leading-[150%] ml-2">
+                                    July 18, 2024
+                                </p>
+                            </div>
+                            <div class="flex items-center py-1">
+                                <img src="../Assets/Calender.svg" alt="Calender"/>
+                                <p class="text-[#34495F] font-inter text-xs font-normal leading-[150%] ml-2">
+                                    7:30 PM (IST) - 10:30 PM (IST)
+                                </p>
+                            </div>
+                            <div class="py-2">
+                                <img src="../Assets/Line1.svg" Alt="Line between Calender and Registerations"/>
+                            </div>
+                            <div class="flex justify-between items-center mt-2">
+                                <div class="flex items-center">
+                                    <img src="../Assets/Reg.svg" alt="Registerations" />
+                                    <p class="text-[#34495F] font-inter text-xs font-semibold leading-[150%] ml-2">
+                                        6630 Registered
+                                    </p>
+                                </div>
+                                <button class="text-black border border-black px-4 py-1 rounded-lg" style="color: var(--Brand-Primary-600, #852AF3); border-color: var(--Brand-Primary-600, #852AF3);">
+                                    Register Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <!-- card-3-->
+        <div class="flex-shrink-0 w-[295px]">
+            <div class="relative shadow-lg overflow-hidden"  style="border-radius: 16px;">
+                <div style="background-color: #BDF8FF;" class="pt-2">
+                    <div class="pl-2">
+                        <div class="flex flex-col items-start h-full">
+                            <img src="../Assets/Group 1410084041.png" alt="FREE" class="mb-1">
+                            <div class="text-[#1E2D3E] font-manrope text-sm font-bold leading-[130%]">
+                                Explore Your Inner<br /> Business Analysis
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute top-2 right-2 bottom-0">
+                        <img src="../Assets/backstar.svg" alt="background svg" class="absolute z-0 w-44 h-44" />
+                        <img src="../Assets/image 5.png" alt="Lawyer" class="bottom-0 right-0 z-10 h-auto object-contain"  />
+                    </div>
+                    <div class="w-76 h-12 flex items-center mt-6" style="background: var(--Brand-Secondary-Sherpa-Blue-900-Main, #004851);">
+                        <div class="flex flex-col items-start px-2">
+                            <div>
+                                <img src="../Assets/Logo.png" alt="logo"/>
+                            </div>
+                            <div class="text-white font-inter text-xs font-semibold leading-[150%] self-stretch mt-1">
+                                MasterClass
+                            </div>
+                        </div>
+                        <img src="../Assets/Line.svg" alt="Line between the text"/>
+                        <div class="px-2">
+                            <div class="text-white font-inter font-semibold leading-[150%] self-stretch" style="font-size: 10px;">
+                                Pragy Agarwal
+                            </div>
+                            <div class="text-white font-inter font-normal leading-[150%]" style="font-size: 6px;">
+                                Senior Software Engineer
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2">
+                    <div class="p-2">
+                        <h3 class="text-[#1E2D3E] font-manrope md:text-base text-sm font-bold leading-[130%] py-2">
+                            Discover your potential by joining <br/> free webinars on project...
+                        </h3>
+                        <div>
+                            <div class="flex items-center py-1">
+                                <img src="../Assets/Alarm.svg" alt="Alarm"/>
+                                <p class="text-[#34495F] font-inter text-xs font-normal leading-[150%] ml-2">
+                                    July 18, 2024
+                                </p>
+                            </div>
+                            <div class="flex items-center py-1">
+                                <img src="../Assets/Calender.svg" alt="Calender"/>
+                                <p class="text-[#34495F] font-inter text-xs font-normal leading-[150%] ml-2">
+                                    7:30 PM (IST) - 10:30 PM (IST)
+                                </p>
+                            </div>
+                            <div class="py-2">
+                                <img src="../Assets/Line1.svg" Alt="Line between Calender and Registerations"/>
+                            </div>
+                            <div class="flex justify-between items-center mt-2">
+                                <div class="flex items-center">
+                                    <img src="../Assets/Reg.svg" alt="Registerations" />
+                                    <p class="text-[#34495F] font-inter text-xs font-semibold leading-[150%] ml-2">
+                                        6630 Registered
+                                    </p>
+                                </div>
+                                <button class="text-black border border-black px-4 py-1 rounded-lg" style="color: var(--Brand-Primary-600, #852AF3); border-color: var(--Brand-Primary-600, #852AF3);">
+                                    Register Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- cards-4 -->
+        <div class="flex-shrink-0 w-[295px]">
+            <div class="relative shadow-lg overflow-hidden" style="border-radius: 16px;">
+                <div style="background-color: #BDF8FF;" class="pt-2">
+                    <div class="pl-2">
+                        <div class="flex flex-col items-start h-full">
+                            <img src="../Assets/Group 1410084041.png" alt="FREE" class="mb-1">
+                            <div class="text-[#1E2D3E] font-manrope text-sm font-bold leading-[130%]">
+                                Explore Your Inner<br /> Business Analysis
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute top-2 right-2 bottom-0">
+                        <img src="../Assets/backstar.svg" alt="background svg" class="absolute z-0 w-44 h-44" />
+                        <img src="../Assets/image 20203.png" alt="Lawyer" class="bottom-0 right-0 z-10 h-auto object-contain"  />
+                    </div>
+                    <div class="w-76 h-12 flex items-center mt-6" style="background: var(--Brand-Secondary-Sherpa-Blue-900-Main, #004851);">
+                        <div class="flex flex-col items-start px-2">
+                            <div>
+                                <img src="../Assets/Logo.png" alt="logo"/>
+                            </div>
+                            <div class="text-white font-inter text-xs font-semibold leading-[150%] self-stretch mt-1">
+                                MasterClass
+                            </div>
+                        </div>
+                        <img src="../Assets/Line.svg" alt="Line between the text"/>
+                        <div class="px-2">
+                            <div class="text-white font-inter font-semibold leading-[150%] self-stretch" style="font-size: 10px;">
+                                Pragy Agarwal
+                            </div>
+                            <div class="text-white font-inter font-normal leading-[150%]" style="font-size: 6px;">
+                                Senior Software Engineer
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2">
+                    <div class="p-2">
+                        <h3 class="text-[#1E2D3E] font-manrope md:text-base text-sm font-bold leading-[130%] py-2">
+                            Discover your potential by joining <br/> free webinars on project...
+                        </h3>
+                        <div>
+                            <div class="flex items-center py-1">
+                                <img src="../Assets/Alarm.svg" alt="Alarm"/>
+                                <p class="text-[#34495F] font-inter text-xs font-normal leading-[150%] ml-2">
+                                    July 18, 2024
+                                </p>
+                            </div>
+                            <div class="flex items-center py-1">
+                                <img src="../Assets/Calender.svg" alt="Calender"/>
+                                <p class="text-[#34495F] font-inter text-xs font-normal leading-[150%] ml-2">
+                                    7:30 PM (IST) - 10:30 PM (IST)
+                                </p>
+                            </div>
+                            <div class="py-2">
+                                <img src="../Assets/Line1.svg" Alt="Line between Calender and Registerations"/>
+                            </div>
+                            <div class="flex justify-between items-center mt-2">
+                                <div class="flex items-center">
+                                    <img src="../Assets/Reg.svg" alt="Registerations" />
+                                    <p class="text-[#34495F] font-inter text-xs font-semibold leading-[150%] ml-2">
+                                        6630 Registered
+                                    </p>
+                                </div>
+                                <button class="text-black border border-black px-4 py-1 rounded-lg" style="color: var(--Brand-Primary-600, #852AF3); border-color: var(--Brand-Primary-600, #852AF3);">
+                                    Register Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="flex justify-center py-10">
+    <div class="flex space-x-4">
+        <img src="../Assets/leftArrow.png" alt="Left Arrow" class="h-8">
+        <img src="../Assets/download.png" alt="Right Arrow" class="h-8">
+    </div>
+</div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
